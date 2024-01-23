@@ -1,0 +1,40 @@
+{
+  "libros": [
+    {
+      "id": "1",
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "ISBN": "978-84-376-0494-7",
+      "genero": "Ficción",
+      "precio": 20.99,
+      "disponibilidad": "Disponible"
+    },
+    {
+      "id": "2",
+      "titulo": "To Kill a Mockingbird",
+      "autor": "Harper Lee",
+      "ISBN": "0-06-112008-1",
+      "genero": "Ficción",
+      "precio": 15.5,
+      "disponibilidad": "Disponible"
+    },
+    {
+      "id": "5",
+      "titulo": "The Hobbit",
+      "autor": "J.R.R. Tolkien",
+      "ISBN": "978-0-261-10255-6",
+      "genero": "Fantasía",
+      "precio": 22.5,
+      "disponibilidad": "Disponible"
+    },
+    {
+      "id": "c559",
+      "titulo": "prueba",
+      "autor": "prueba",
+      "ISBN": "prueba",
+      "genero": "prueba",
+      "precio": "",
+      "disponibilidad": "prueba"
+    }
+  ]
+}
