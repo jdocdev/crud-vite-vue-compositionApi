@@ -2,7 +2,7 @@
   "libros": [
     {
       "id": "1",
-      "titulo": "Cien años de soledad",
+      "titulo": "Cinco años de soledad",
       "autor": "Gabriel García Márquez",
       "ISBN": "978-84-376-0494-7",
       "genero": "Ficción",
@@ -26,15 +26,6 @@
       "genero": "Fantasía",
       "precio": 22.5,
       "disponibilidad": "Disponible"
-    },
-    {
-      "id": "c559",
-      "titulo": "prueba",
-      "autor": "prueba",
-      "ISBN": "prueba",
-      "genero": "prueba",
-      "precio": "",
-      "disponibilidad": "prueba"
     }
   ]
 }
