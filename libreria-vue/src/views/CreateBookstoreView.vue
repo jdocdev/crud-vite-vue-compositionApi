@@ -33,9 +33,16 @@ export default {
         // Método para crear un nuevo libro
         const crearLibro = async () => {
             try {
+
+                // Validación ISBN numérico
+                if (isNaN(Number(nuevoLibro.value.ISBN))) {
+                    alert('El ISBN debe ser un número.');
+                    return;
+                }
+
                 const response = await axios.post('http://localhost:3000/libros', nuevoLibro.value);
                 setTimeout(() => {
-                    alert('libro creado con éxito'); 
+                    alert('libro creado con éxito');
                 }, 200);
 
                 // Limpiar el formulario después de crear el libro
